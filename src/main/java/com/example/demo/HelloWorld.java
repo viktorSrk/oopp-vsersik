@@ -12,6 +12,6 @@ public class HelloWorld {
     @GetMapping("/")
     @ResponseBody
     public String index() {
-        return "HELLO WORLD!";
+        return "HI WORLD!";
     }
 }
